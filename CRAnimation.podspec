@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'CRAnimation'
-    s.version          = '0.1.1'
+    s.version          = '0.1.2'
     s.summary          = 'Some incredible animation effects in iOS.'
     s.description      = <<-DESC
         CRAniamtion full name is Couldn't Refuse Aniamtion.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/BearRan/CRAnimation.git'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'BearRan' => '648070256@qq.com' }
-    s.source           = { :git => 'https://github.com/BearRan/CRAnimation.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/BearRan/CRAnimationRepo.git', :tag => s.version.to_s }
     s.ios.deployment_target = '7.0'
     s.frameworks = 'UIKit'
     s.dependency 'BearSkill'
